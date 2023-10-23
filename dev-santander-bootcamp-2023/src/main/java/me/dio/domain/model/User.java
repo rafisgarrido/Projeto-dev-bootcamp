@@ -1,7 +1,9 @@
 package me.dio.domain.model;
 
 import jakarta.persistence.*;
-import org.glassfish.jaxb.runtime.v2.schemagen.xmlschema.List;
+
+
+import java.util.List;
 
 @Entity(name = "tb_user")
 public class User {
